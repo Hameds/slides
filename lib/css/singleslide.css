@@ -1,0 +1,12 @@
+/**
+ * Overrides for single slides
+ *
+ * By Hamed, https://github.com/hameds
+ */
+@import url("fonts.css");
+body,html,h1,h2,h3,h4,h5,h6,p,div,label,a,span,section{
+    font-family:Vazir !important;
+}
+.reveal section img{
+    border:none;
+}

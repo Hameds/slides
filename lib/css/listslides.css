@@ -1,0 +1,13 @@
+/**
+ * Overrides for single slides
+ *
+ * By Hamed, https://github.com/hameds
+ */
+@import url("fonts.css");
+body, html {
+    font-family: Vazir;
+    direction: rtl;
+}
+.card-block{
+    padding: 15px;
+}
