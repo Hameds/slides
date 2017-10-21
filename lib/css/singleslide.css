@@ -3,6 +3,7 @@
  *
  * By Hamed, https://github.com/hameds
  */
+@import url("bootstrap.min.css");
 @import url("fonts.css");
 body,html,h1,h2,h3,h4,h5,h6,p,div,label,a,span,section{
     font-family:Vazir !important;
@@ -10,3 +11,57 @@ body,html,h1,h2,h3,h4,h5,h6,p,div,label,a,span,section{
 .reveal section img{
     border:none;
 }
+#contact-info{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    direction: ltr;
+}
+#contact-info a{
+    color:#000;
+}
+.btn-more { 
+    color: #ffffff !important; 
+    background-color: #611BBD; 
+    border-color: #130269; 
+    padding:20px !important;
+  } 
+   
+  .btn-more:hover, 
+  .btn-more:focus, 
+  .btn-more:active, 
+  .btn-more.active, 
+  .open .dropdown-toggle.btn-more { 
+    color: #ffffff; 
+    background-color: #49247A; 
+    border-color: #130269; 
+  } 
+   
+  .btn-more:active, 
+  .btn-more.active, 
+  .open .dropdown-toggle.btn-more { 
+    background-image: none; 
+  } 
+   
+  .btn-more.disabled, 
+  .btn-more[disabled], 
+  fieldset[disabled] .btn-more, 
+  .btn-more.disabled:hover, 
+  .btn-more[disabled]:hover, 
+  fieldset[disabled] .btn-more:hover, 
+  .btn-more.disabled:focus, 
+  .btn-more[disabled]:focus, 
+  fieldset[disabled] .btn-more:focus, 
+  .btn-more.disabled:active, 
+  .btn-more[disabled]:active, 
+  fieldset[disabled] .btn-more:active, 
+  .btn-more.disabled.active, 
+  .btn-more[disabled].active, 
+  fieldset[disabled] .btn-more.active { 
+    background-color: #611BBD; 
+    border-color: #130269; 
+  } 
+   
+  .btn-more .badge { 
+    color: #611BBD; 
+    background-color: #ffffff; 
+  }
